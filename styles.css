@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  font-family: pacifico,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #37C8AB;
+  background: #FFF0AD;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: pacifico,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.app {
+  background: #011B37;
+  padding: 30px;
+  height: 100vh;
+}
+
+.todo-list{
+  background: #37C8AB;
+  border-radius: 4px;
+  padding: 5px;
+  max-width: 400px;
+}
+
+.todo{
+  background: #FFF0AD;
+  box-shadow: 1px 1px 1px rgba(0,0,0, 0.15);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  border-radius: 3px;
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  background: #FFF0AD;
+  width: 100%;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+  font-family: pacifico,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
